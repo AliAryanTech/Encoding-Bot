@@ -1,1 +1,1 @@
-bot: python3 start.py
+/bin/sh -c bash\ run.sh
