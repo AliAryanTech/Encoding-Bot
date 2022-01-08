@@ -156,7 +156,7 @@ async def something():
                 er = stderr.decode()
                 try:
                     if er:
-                        await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+                        await e.edit(str(er) + "\n\n**ERROR** Contact @AliAryanTech")
                         QUEUE.pop(list(QUEUE.keys())[0])
                         os.remove(dl)
                         os.remove(out)
