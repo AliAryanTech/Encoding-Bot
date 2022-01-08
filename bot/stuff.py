@@ -29,7 +29,7 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\n Also you can Generate Screenshots too.",
         buttons=[
             [Button.inline("Checkout Help Menu 📑", data="ihelp")],
             [
@@ -42,20 +42,20 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**🐠 A Quality CompressorQueue**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options"
+        "**🐠 A Quality Compressor Bot**\n\n • This Bot Compress Videos With Negligible Quality Change.\n • Generate Sample Compressed Video\n • Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\n • So Be patience Nd Send videos One By One After Completing.\n • Dont Spam Bot.\n\nJust Forward Video To Get Options"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "**🐠 A Quality CompressorQueue**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options",
+        "**🐠 A Quality Compressor Bot**\n\n • This Bot Compress Videos With Negligible Quality Change.\n • Generate Sample Compressed Video\n • Screenshots Too\n • Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\n • So Be patience Nd Send videos One By One After Completing.\n • Dont Spam Bot.\n\n • Just Forward Video To Get Options",
         buttons=[Button.inline("BACK", data="beck")],
     )
 
 
 async def beck(event):
     await event.edit(
-        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{event.sender.first_name}`\n • This is A CompressorQueue Which Can Encode Videos.\n • Reduce Size of Videos With Negligible Quality Change\n • You can Generate Samples/screenshots too.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
