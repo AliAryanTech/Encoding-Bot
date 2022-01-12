@@ -61,7 +61,7 @@ async def dl_link(event):
     kk = dl.split("/")[-1]
     aa = kk.split(".")[-1]
     rr = "encode"
-    bb = kk.replace(f".{aa}", " - (@AnimeListUp).mkv")
+    bb = kk.replace(f".{aa}", "_compressed.mkv")
     out = f"{rr}/{bb}"
     thum = "thumb.jpg"
     dtime = ts(int((es - s).seconds) * 1000)
